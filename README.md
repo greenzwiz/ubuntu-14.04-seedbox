@@ -26,10 +26,16 @@ sudo apt-get install nano –y
 sudo nano /etc/transmission-daemon/settings.json
 ```
 #### Find And Replace rpc-password and rpc-whitelist-enabled as shown. 
+```
 "rpc-password": "YourNewPassword",
+```
+```
 "rpc-whitelist-enabled": false,
+```
 ### Save and Exit
+```
 "ctrl+x" and "y"
+```
 
 ### Reload Transmission 
 ```
