@@ -7,7 +7,7 @@ sudo apt-get update && apt-get upgrade -y
 
 ### Install Prerequisites
 ```
-sudo apt-get install python-software-properties -y && add-apt-repository ppa:transmissionbt
+sudo apt-get install python-software-properties && add-apt-repository ppa:transmissionbt -y
 ```
 ### Install Transmission Daemon 
 ```
@@ -29,6 +29,7 @@ sudo nano /etc/transmission-daemon/settings.json
 ```
 "rpc-password": "YourNewPassword",
 ```
+###### Replace the above with an appropriate password. 
 ```
 "rpc-whitelist-enabled": false,
 ```
