@@ -1,6 +1,6 @@
 ubuntu-14.04-seedbox
 ====================
-Update Server
+### Update Server
 ```
 sudo apt-get update && apt-get upgrade -y
 ```
@@ -15,11 +15,6 @@ sudo apt-get update
 ``` 
 ```
 sudo apt-get install transmission-daemon
-```
-### Install Text Editor “nano” 
-#####(This may already be installed)
-```
-sudo apt-get install nano –y
 ```
 ### Update Transmission Password
 ```
