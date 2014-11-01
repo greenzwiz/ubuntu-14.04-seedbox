@@ -35,7 +35,7 @@ sudo nano /etc/transmission-daemon/settings.json
 
 ### Reload Transmission 
 ```
-/etc/init.d/transmission-daemon restart
+sudo /etc/init.d/transmission-daemon restart
 ```
 
 That's all. To use your new seedbox go to your web browser and type your server's ip with port 9091. Example http://111.222.33.444:9091/.
