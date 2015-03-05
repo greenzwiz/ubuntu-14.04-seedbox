@@ -1,8 +1,8 @@
 ubuntu-14.04-seedbox
 ====================
-### Update Server
+### Update & Upgrade Server
 ```
-sudo apt-get update && apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 
 ### Install Prerequisites
