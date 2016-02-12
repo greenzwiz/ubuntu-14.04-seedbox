@@ -7,14 +7,14 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 ### Install Prerequisites
 ```
-sudo apt-get install python-software-properties && add-apt-repository ppa:transmissionbt -y
+sudo apt-get install python-software-properties && sudo add-apt-repository ppa:transmissionbt -y
 ```
 ### Install Transmission Daemon 
 ```
-sudo apt-get update
+sudo apt-get update 
 ``` 
 ```
-sudo apt-get install transmission-daemon
+sudo apt-get install transmission-daemon -y
 ```
 ### Update Transmission Password
 ```
